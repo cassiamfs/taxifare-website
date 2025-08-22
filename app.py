@@ -31,6 +31,8 @@ d = st.date_input(
 
 t = st.time_input('Time')
 
+st.write('Date and Time')
+date_time = f"{d} {t}"
 st.markdown("***")
 plon = st.number_input('Pickup Longitude')
 
