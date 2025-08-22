@@ -88,6 +88,9 @@ if st.button('Prediction'):
 else:
     st.write('🤑')
 
+st.markdown("***")
+st.image("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXkwaGQydmhzaWJpZWlwcGc1YTFrc2I5dW51cDR1M3k2d3d1NTVsaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3orieXpGEQYMhTVwsM/giphy.gif")
+
 # # Verificar el status code
 # if response.status_code == 200:
 #     print("Request exitoso")
