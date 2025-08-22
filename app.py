@@ -35,19 +35,19 @@ st.write('Date and Time')
 date_time = f"{d} {t}"
 st.markdown("***")
 plon = st.number_input('Pickup Longitude')
-st.write('Pickup Longitude')
+
 st.markdown("***")
 plat = st.number_input('Pickup Latitude')
-st.write('Pickup Latitude')
+
 st.markdown("***")
 dlon = st.number_input('Dropoff Longitude')
-st.write('Dropoff Longitude')
+
 st.markdown("***")
 dlat = st.number_input('Dropoff Latitude')
-st.write('Dropoff Latitude')
+
 st.markdown("***")
 passenger_num = st.number_input('Passengers', min_value=1, value=int(1),)
-st.write('Passenger Count')
+
 
 
 # '''
